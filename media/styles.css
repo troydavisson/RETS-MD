@@ -1,0 +1,70 @@
+body {
+  font: 10pt Tahoma;  margin: 0;  padding: 0;
+}
+#big-container {
+  text-align: center;  width: 700px;  margin: 0 auto;
+}
+#container {
+  text-align: left;  min-height: 500px;
+}
+.dark-bg {
+  background-color: #B3C0FF;
+}
+.light-bg {
+  background-color: #DFE4FF;
+}
+.white-bg {
+  background-color: #F0F2FF;
+}
+#top {
+  font: bold 20pt Verdana;  text-align: center;  margin-top: 30px;  margin-bottom: 50px;
+}
+.box {
+  margin-bottom: 25px;  border-bottom: 1px solid #5573FF;
+}
+.box_heading {
+  font: bold 12pt Verdana;  text-align: center;  padding: 5px;  margin: 0px;  border-bottom: 2px solid #5573FF;
+}
+.box_content {
+  padding: 10px;
+}
+input, select, option, textarea {
+  font: 8pt Verdana;
+}
+optgroup {
+  font-family: Verdana;  font-weight: bold;  font-style: normal;
+}
+option, select, optgroup {
+  padding-right: 10px;
+}
+.detail {
+  font: 8pt Tahoma;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+  color: #6938FC;
+}
+.box-inner {
+  margin: 15px;  border: 1px dotted #CCCCCC;  padding: 5px;
+}
+.metadata_details_fields td {
+  font-size: 8pt;
+}
+#footer {
+  margin-top: 100px;
+}
+
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {background-color:white; border:8px solid #b3c0ff;}
+
+.extra {
+	display: none;
+}
+
+#extra-link {
+  font-size: 8pt;
+}
+
+#login-button {
+	margin-top: 10px;
+}
