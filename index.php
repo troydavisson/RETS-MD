@@ -321,9 +321,11 @@ function code_peek() {
 <?php
 
 	$field_list = $rets->SearchGetFields($search);
-
+	$rets->FreeResult($search);
+	
 	$system_to_long = array();
 	$table_metadata = $rets->GetMetadataTable($_REQUEST['r_resource'], $_REQUEST['r_class']);
+	
 	foreach ($table_metadata as $fi) {
 		$system_to_long["{$fi['SystemName']}"] = $fi['LongName'];
 	}
