@@ -965,7 +965,7 @@ else {
 	$login_url = $_REQUEST['login_url'];
 }
 
-$possible_versions = array("1.0","1.5","1.7","1.7.2");
+$possible_versions = array("1.0","1.5","1.7","1.7.2","1.8");
 $version_options = "";
 foreach ($possible_versions as $version) {
 	if ($version == $rets_version) {
