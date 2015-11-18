@@ -960,9 +960,9 @@ if (isset($_REQUEST['load']) && $_REQUEST['load'] == "demo") {
 else {
 	$user_agent = "RETSMD/1.0";
 	$rets_version = "1.5";
-	$username = $_REQUEST['username'];
-	$password = $_REQUEST['password'];
-	$login_url = $_REQUEST['login_url'];
+	$username = isset($_REQUEST['username']) ? $_REQUEST['username'] : "";
+	$password = isset($_REQUEST['password']) ? $_REQUEST['password'] : "" ;
+	$login_url = isset($_REQUEST['login_url']) ? $_REQUEST['login_url'] : "";
 }
 
 $possible_versions = array("1.0","1.5","1.7","1.7.2","1.8");
